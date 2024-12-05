@@ -54,7 +54,31 @@ header {
     align-items: center;
     font-size: 1.1rem;
     font-weight: 600;
-    color:white;
+    color:black;
     column-gap:00.5rem;
+}
+
+.logo .bx {
+    font-size:24px;
+}
+
+.navbar{
+    display:flex;
+    column-gap: 0.5rem;
+}
+
+.navbar a {
+    font-size:1rem;
+    font-weight:500;
+    color:black;
+    padding:0.5rem 1rem ;
+}
+
+.navbar a:hover,
+ .navbar .home-active{
+     background:greenyellow;
+     border-radius: 50px;
+     color:black;
+     transition:0.5s;
 }
 
