@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'poppins', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style:none;text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+img{
+    width:100%;
+}
+
+body{
+    color:#1a2428;
+}
+
+header {
+    position:fixed;
+    width:100%;
+    top:0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: pink;
+    box-shadow:0 8px 11px rgb(14 55 54 / 15%);
+    padding:20px 100px;transition:0.5s;
+}
+
+.profile {
+    display:flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    cursor:pointer;
+}
+
+.profile img {
+    width:40px;
+    height:40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.profile span {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color:white;
+    column-gap:00.5rem;
+}
+
