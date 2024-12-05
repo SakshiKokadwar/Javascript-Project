@@ -9,6 +9,9 @@
     scroll-behavior: smooth;
 }
 
+section {
+    padding:4.5rem 0 1.5rem;
+}
 img{
     width:100%;
 }
@@ -87,3 +90,79 @@ header {
     cursor:pointer;
     display:none;
 }
+
+.btn{
+    background-color: greenyellow;
+    border-radius:10px;
+    color:black;
+    padding:8px 17px;
+    margin:8px auto;
+}
+
+.heading{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading h1 {
+    font-size:1.6rem;
+    font-weight: 600;
+}
+.heading span {
+    color:greenyellow;
+}
+.categories{
+    max-width: 970px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.categories-container{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    margin-top: 2rem;
+}
+.categories-container .box{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    border-radius: 0.5rem;
+}
+.categories-container .box img{
+    width: 100%;
+    height:100px;
+    object-fit: contain;
+    object-position: center;
+}
+.categories-container .box h2{
+    font-size:1rem;
+    font-weight:600;
+}
+.categories-container .box span{
+    font-size:0.8rem;
+    font-weight:400;
+    margin-bottom:1rem;
+}
+.categories-container .box .bx{
+   margin-top:2px;  
+}
+ .box1{
+    background:#fef4ea ;
+}
+.box2{
+    background:#e9f4e3 ;
+}
+.box3{
+    background:#faeaea;
+}
+.box4{
+    background:#eeeef9 ;
+}
+.box5{
+    background:#f7f6d7 ;
+}
+
+
+
