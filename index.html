@@ -9,12 +9,12 @@
     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-    <header>
+    <header id="headerchange">
         <a href="#" class="logo">🧺Freshopia</a>
 
         <div class="bx bx-menu" id="menu-icon"></div>
 
-        <ul class="navbar">
+        <ul class="navbar" id="navbar">
             <li><a href="#home" class="home-active">Home</a></li>
             <li><a href="#categories" class="">Categories</a></li>
             <li><a href="#products" class="">Products</a></li>
@@ -25,8 +25,11 @@
             <img src="1.jpg"/>
             <span>Sakshi Kokadwar</span>
             <i class='bx bx-caret-down'></i>
-        </div>
+         </div>
     </header>
+    
+    <img src="sunny.png" class="sun" onclick="lightMode()"/>
+    <img src="moon.png" class="moon" onclick="darkMode()"/>
 
     <section class="home" id="home">
         <div class="heading">

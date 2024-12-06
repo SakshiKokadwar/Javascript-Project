@@ -35,3 +35,12 @@
    }
 
    setInterval(next, 2000);
+
+   function lightMode() {
+      const lightElement = document.getElementById("headerchange");
+      lightElement.style.background= 'pink';
+   }
+   function darkMode() {
+      const darkElement = document.getElementById("headerchange");
+      darkElement.style.background = 'grey';
+   }

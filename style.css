@@ -14,6 +14,7 @@ section {
 }
 img{
     width:100%;
+    
 }
 
 body{
@@ -382,6 +383,7 @@ form{
 
     .slide {
         height: auto;
+        position:relative
     }
 
     .icon-action {
@@ -444,4 +446,17 @@ form{
         width: 100%;
     }
 }
-
+.sun{
+    height:40px;
+    width:auto;
+    margin:50px auto;
+    position:absolute;
+    left:0;
+}
+.moon{
+    height:40px;
+    width:auto;
+    margin:50px auto;
+    position:absolute;
+    right:0;
+}
