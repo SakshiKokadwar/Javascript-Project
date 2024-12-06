@@ -19,7 +19,6 @@
             <li><a href="#categories" class="">Categories</a></li>
             <li><a href="#products" class="">Products</a></li>
             <li><a href="#about" class="">About</a></li>
-            <li><a href="#customer" class="">Customer</a></li>
         </ul>
 
         <div class="profile">
@@ -30,6 +29,7 @@
     </header>
 
     <section class="home" id="home">
+        
 
     </section>
 
@@ -120,7 +120,44 @@
         </div>
     </section>
 
-    <sec
+
+    <button type="button" class="btn1" onclick="openModal()">
+        Order Now
+    </button>
+
+    <div class="overlay" id="overlay">
+        <div class="modal">
+            <form>
+                <input type="text"
+                placeholder="Enter name";
+                class="form-input";
+                />
+                <input type="text"
+                placeholder="Enter email";
+                class="form-input";
+                />
+                <input type="text"
+                placeholder="Enter phone number";
+                class="form-input";
+                />
+                <label for="selectCategory">Choose Category</label>
+                <select class="form-input">
+                <option>Fruits</option>
+                <option>Vegetables</option>
+                <option>Drinks</option>
+                <option>Fresh Nuts</option>
+                <option>Spices</option>
+            </select>
+            <input type="text"
+                placeholder="Enter Address";
+                class="form-input";
+                />
+                 </form>
+                 <button type="button" class="btn" onclick="closeModal()">Cancel</button>&nbsp;&nbsp;
+                 <button type="button" class="btn">Proceed to Pay</button>
+                
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>

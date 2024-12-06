@@ -210,6 +210,46 @@ header {
 .about-text p{
     margin:2px 2px;
 }
+.btn1{
+    border:none;
+    display:block;
+    border-radius:5px;
+    background-color: greenyellow;
+    border-radius:10px;
+    color:black;
+    padding:8px 17px;
+    margin:8px auto;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    position:fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    display:none;
+    justify-content:center;
+    align-items:center;
+}
+.modal{
+    height:400px;
+    background-color:#fff;
+    display:block;
+    padding:20px 30px  
+}
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.form-input{
+    width:200px;
+    margin:10px 0;
+    font-size:15px;
+    padding:5px 10px;
+
+}
 
 
 
