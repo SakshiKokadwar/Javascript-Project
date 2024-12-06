@@ -248,7 +248,42 @@ form{
     margin:10px 0;
     font-size:15px;
     padding:5px 10px;
+}
 
+.slide{
+    height:600px;
+    width:800px;
+
+}
+.home{
+    width:fit-content;
+    margin:50px auto;
+    position:relative;
+}
+.icon-action{
+    height:50px;
+    width:auto;
+    color:white;
+    cursor:pointer;
+    transition:0.5s;
+}
+.icon-prev{
+    position:absolute;
+    left:0;
+    top:50%;
+    margin:auto 5px;
+}
+.icon-prev:hover{
+    transform:scale(0.8); 
+}
+.icon-next{
+    position:absolute;
+    top:50%;
+    right:0;
+    margin:5px auto;
+}
+.icon-next:hover{
+    transform:scale(0.8);
 }
 
 
