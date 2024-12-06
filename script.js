@@ -9,7 +9,7 @@
       overlayElement.style.display = 'none';
    }
 
-   const images = ["1.jpeg", "2.jpeg", "3.webp", "4.jpg", "5.jpg"];
+   const images = ["s1.avif", "s2.jpg", "s3.jpg", "4.jpg", "s5.jpg"];
    
    let index = 0;
    const slide = document.getElementById("slide");
