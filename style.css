@@ -307,6 +307,141 @@ form{
     background-color: red;
 }
 
-@media (max-width)
 
+
+
+/*media queries*/
+/* Default styles already apply to larger screens */
+@media (max-width: 1080px) {
+    header {
+        padding: 18px 60px;
+    }
+
+    .home h1 {
+        padding: 0 50px;
+        font-size: 1.5rem;
+    }
+
+    .home img {
+        width: 90%;
+        height: auto;
+    }
+
+    .categories-container, .product-container {
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .categories-container .box, .product-container .box {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px 30px;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: pink;
+        width: 100%;
+        box-shadow: 0 8px 11px rgb(14 55 54 / 15%);
+    }
+
+    .navbar a {
+        padding: 10px 15px;
+        text-align: center;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .profile {
+        display: none;
+    }
+
+    .categories-container .box, .product-container .box {
+        width: 100%;
+    }
+
+    .home img {
+        width: 100%;
+        height: auto;
+    }
+
+    .slide {
+        height: auto;
+    }
+
+    .icon-action {
+        width: 30px;
+        height: 30px;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about img {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .btn, .btn1 {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px 15px;
+        flex-direction: column;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    .categories-container .box img, 
+    .product-container .box img {
+        height: 80px;
+    }
+
+    .footer-box {
+        flex-direction: column;
+    }
+
+    .footer-box h2, .footer-box a {
+        text-align: center;
+    }
+
+    .social {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .modal {
+        width: 90%;
+    }
+
+    .form-input {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
 
