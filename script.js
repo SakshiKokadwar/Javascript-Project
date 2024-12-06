@@ -38,9 +38,13 @@
 
    function lightMode() {
       const lightElement = document.getElementById("headerchange");
+      const lightElement1 = document.getElementById("btn");
       lightElement.style.background= 'pink';
+      lightElement1.style.backgroundColor='greenyellow';
    }
    function darkMode() {
       const darkElement = document.getElementById("headerchange");
+      const darkElement1 = document.getElementById("btn");
       darkElement.style.background = 'grey';
+      darkElement1.style.backgroundColor='grey';
    }
