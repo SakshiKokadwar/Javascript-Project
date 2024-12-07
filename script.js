@@ -38,13 +38,13 @@
 
    function lightMode() {
       const lightElement = document.getElementById("headerchange");
-      const lightElement1 = document.getElementById("btn");
+      const lightElement2 = document.getElementById("bodychange");
       lightElement.style.background= 'pink';
-      lightElement1.style.backgroundColor='greenyellow';
+      lightElement2.style.backgroundColor='white';
    }
    function darkMode() {
       const darkElement = document.getElementById("headerchange");
-      const darkElement1 = document.getElementById("btn");
+      const darkElement2 = document.getElementById("bodychange");
       darkElement.style.background = 'grey';
-      darkElement1.style.backgroundColor='grey';
+      darkElement2.style.backgroundColor='grey';
    }
