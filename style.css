@@ -316,6 +316,7 @@ form{
     margin:50px auto;
     position:absolute;
     left:0;
+    cursor:pointer;
 }
 .moon{
     height:40px;
@@ -323,6 +324,7 @@ form{
     margin:50px auto;
     position:absolute;
     right:0;
+    cursor:pointer;
 }
 .size{
     height:150px;
